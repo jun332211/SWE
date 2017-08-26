@@ -6,14 +6,16 @@
 
 GameData::GameData()
 {
-    this->availableData << "armor"
+    this->availableData << "accessory"
+                        << "armor"
                         << "consume"
-                        << "skill"
                         << "hackslash_technic"
+                        << "helmet"
                         << "important"
                         << "material"
-                        << "weapon"
-                        << "using";
+                        << "skill"
+                        << "using"
+                        << "weapon";
     foreach (QString s, this->availableData) {
         QFile f(QString(":/data/data/%1.xml").arg(s));
         QFile g(QString(":/data/data/%1_%2.xml").arg(s).arg(QLocale().name()));

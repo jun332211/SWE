@@ -3,9 +3,11 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "accessorytab.h"
 #include "armortab.h"
 #include "cheatcodedialog.h"
 #include "error.h"
+#include "helmettab.h"
 #include "importanttab.h"
 #include "itemtab.h"
 #include "manualeditdialog.h"

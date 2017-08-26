@@ -33,20 +33,26 @@ MainWindow::MainWindow(QWidget* parent)
     ItemTab* it = new ItemTab(this->mgr, this, 0x20);
     WeaponTab* wt = new WeaponTab(this->mgr, this, 0x22);
     ImportantTab* imt = new ImportantTab(this->mgr, this, 0x26);
+    HelmetTab* ht = new HelmetTab(this->mgr, this, 0x23);
     ArmorTab* at = new ArmorTab(this->mgr, this, 0x24);
+    AccessoryTab* ast = new AccessoryTab(this->mgr, this, 0x25);
     MaterialTab* mt = new MaterialTab(this->mgr, this, 0x21);
     Section6Tab* s6t = new Section6Tab(this->mgr, this, 0x06);
 
     this->ui->tabWidget->addTab(it, tr("ITEM"));
     this->ui->tabWidget->addTab(wt, tr("WEAPON"));
+    this->ui->tabWidget->addTab(ht, tr("HELMET"));
     this->ui->tabWidget->addTab(at, tr("ARMOR"));
+    this->ui->tabWidget->addTab(ast, tr("ACCESSORY"));
     this->ui->tabWidget->addTab(mt, tr("MATERIAL"));
     this->ui->tabWidget->addTab(imt, tr("IMPORTANT"));
     this->ui->tabWidget->addTab(s6t, tr("INFO"));
 
     this->sectionTabs.append(it);
     this->sectionTabs.append(wt);
+    this->sectionTabs.append(ht);
     this->sectionTabs.append(at);
+    this->sectionTabs.append(ast);
     this->sectionTabs.append(mt);
     this->sectionTabs.append(imt);
     this->sectionTabs.append(s6t);

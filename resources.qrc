@@ -4,14 +4,16 @@
         <file>small_icon.png</file>
     </qresource>
     <qresource prefix="/data">
+        <file>data/accessory.xml</file>
         <file>data/armor.xml</file>
         <file>data/consume.xml</file>
+        <file>data/hackslash_technic.xml</file>
+        <file>data/helmet.xml</file>
         <file>data/important.xml</file>
         <file>data/material.xml</file>
         <file>data/skill.xml</file>
-        <file>data/hackslash_technic.xml</file>
-        <file>data/weapon.xml</file>
         <file>data/using.xml</file>
+        <file>data/weapon.xml</file>
     </qresource>
     <qresource prefix="/translations">
         <file>translations/app_ja.qm</file>

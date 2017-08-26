@@ -63,7 +63,9 @@ SOURCES += main.cpp\
     weapontab.cpp \
     section6tab.cpp \
     armortab.cpp \
-    materialtab.cpp
+    materialtab.cpp \
+    helmettab.cpp \
+    accessorytab.cpp
 
 HEADERS  += mainwindow.h \
     version.h \
@@ -115,7 +117,9 @@ HEADERS  += mainwindow.h \
     weapontab.h \
     section6tab.h \
     armortab.h \
-    materialtab.h
+    materialtab.h \
+    helmettab.h \
+    accessorytab.h
 
 FORMS    += mainwindow.ui \
     version_dialog.ui \
@@ -128,7 +132,9 @@ FORMS    += mainwindow.ui \
     weapontabform.ui \
     section6tab.ui \
     armortabform.ui \
-    materialtabform.ui
+    materialtabform.ui \
+    helmettabform.ui \
+    accessorytabform.ui
 
 TRANSLATIONS = $$PWD/translations/app_ja.ts \
 $$PWD/translations/app_en.ts

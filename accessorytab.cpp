@@ -1,20 +1,20 @@
 #pragma execution_character_set("utf-8")
 
-#include "armortab.h"
+#include "accessorytab.h"
 
 #include "dataeditor/integereditor.h"
 #include "dataeditor/listeditor.h"
 
-ArmorTab::ArmorTab(SaveManager* mgr, QWidget* parent, int sectionId)
+AccessoryTab::AccessoryTab(SaveManager* mgr, QWidget* parent, int sectionId)
     : ListTab(mgr, parent, sectionId)
-    , form(new Ui::ArmorTabForm)
+    , form(new Ui::AccessoryTabForm)
 {
     QWidget* w = new QWidget(this);
     form->setupUi(w);
     ui->form->addWidget(w);
 
     this->setNum1Offset(0x2000);
-    this->setItemsCount(GameConfig::ArmorCountMax);
+    this->setItemsCount(GameConfig::AccessoryCountMax);
     this->setItemSize(0x18);
 
     for (int i = 0; i < this->getItemsCount(); ++i) {
@@ -22,7 +22,7 @@ ArmorTab::ArmorTab(SaveManager* mgr, QWidget* parent, int sectionId)
     }
 
     /* intert items into combobox */
-    foreach (const dataentry_t& it, GameData::getInstance().getData("armor")) {
+    foreach (const dataentry_t& it, GameData::getInstance().getData("accessory")) {
         form->itemCB->addItem(it.second.value("name"), it.first);
     }
     form->itemCB->setCurrentIndex(-1);
@@ -35,7 +35,7 @@ ArmorTab::ArmorTab(SaveManager* mgr, QWidget* parent, int sectionId)
     this->editors.append(itemE);
 }
 
-ArmorTab::~ArmorTab()
+AccessoryTab::~AccessoryTab()
 {
     delete form;
 }
