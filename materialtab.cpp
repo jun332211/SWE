@@ -15,7 +15,7 @@ MaterialTab::MaterialTab(SaveManager* mgr, QWidget* parent, int sectionId)
 
     this->setNum1Offset(0x2000);
     this->setItemsCount(GameConfig::MaterialCountMax);
-    this->setItemSize(0x08);
+    this->setItemSize(0x0C);
 
     for (int i = 0; i < this->getItemsCount(); ++i) {
         ui->listWidget->addItem(QString(""));
@@ -33,6 +33,7 @@ MaterialTab::MaterialTab(SaveManager* mgr, QWidget* parent, int sectionId)
     this->editors.append(new IntegerEditor(this, form->num1Label, form->num1SB, 0x00, 16, false));
     this->editors.append(new IntegerEditor(this, form->num2Label, form->num2SB, 0x02, 16, false));
     this->editors.append(itemE);
+    this->editors.append(new IntegerEditor(this, form->countLabel, form->countSB, 0x8, 8, false));
 }
 
 MaterialTab::~MaterialTab()
