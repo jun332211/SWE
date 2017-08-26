@@ -858,6 +858,11 @@ Because this is an experimental feature, your save data may get corrupted. Conti
         <source>TYPE</source>
         <translation>Type</translation>
     </message>
+    <message>
+        <location filename="../materialtabform.ui" line="73"/>
+        <source>QTY</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MedaliumTab</name>

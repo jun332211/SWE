@@ -862,6 +862,11 @@
         <source>TYPE</source>
         <translation>種類</translation>
     </message>
+    <message>
+        <location filename="../materialtabform.ui" line="73"/>
+        <source>QTY</source>
+        <translation>個数</translation>
+    </message>
 </context>
 <context>
     <name>MedaliumTab</name>
