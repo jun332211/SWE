@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="en">
+<TS version="2.1" language="en">
+<context>
+    <name>AccessoryTabForm</name>
+    <message>
+        <location filename="../accessorytabform.ui" line="20"/>
+        <source>GENERAL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../accessorytabform.ui" line="28"/>
+        <source>NUM1</source>
+        <translation type="unfinished">#1</translation>
+    </message>
+    <message>
+        <location filename="../accessorytabform.ui" line="42"/>
+        <source>NUM2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../accessorytabform.ui" line="56"/>
+        <source>TYPE</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>ArmorTabForm</name>
     <message>
@@ -28,38 +51,38 @@
     <name>BustersEquipmentTab</name>
     <message>
         <source>UNKNOWN</source>
-        <translation>(???)</translation>
+        <translation type="vanished">(???)</translation>
     </message>
 </context>
 <context>
     <name>BustersEquipmentTabForm</name>
     <message>
         <source>GENERAL</source>
-        <translation>General</translation>
+        <translation type="vanished">General</translation>
     </message>
     <message>
         <source>NUM1</source>
-        <translation>#1</translation>
+        <translation type="vanished">#1</translation>
     </message>
     <message>
         <source>NUM2</source>
-        <translation>#2</translation>
+        <translation type="vanished">#2</translation>
     </message>
     <message>
         <source>TYPE</source>
-        <translation>Type</translation>
+        <translation type="vanished">Type</translation>
     </message>
     <message>
         <source> TYPE</source>
-        <translation>Type</translation>
+        <translation type="vanished">Type</translation>
     </message>
     <message>
         <source>INDEX</source>
-        <translation>Index</translation>
+        <translation type="vanished">Index</translation>
     </message>
     <message>
         <source>ENCHANTMENT</source>
-        <translation>Enchantment value</translation>
+        <translation type="vanished">Enchantment value</translation>
     </message>
     <message>
         <source>QTY1</source>
@@ -70,45 +93,45 @@
     <name>BustersHiddenTreasureTab</name>
     <message>
         <source>UNKNOWN</source>
-        <translation>(???)</translation>
+        <translation type="vanished">(???)</translation>
     </message>
 </context>
 <context>
     <name>BustersHiddenTreasureTabForm</name>
     <message>
         <source>GENERAL</source>
-        <translation>General</translation>
+        <translation type="vanished">General</translation>
     </message>
     <message>
         <source>NUM1</source>
-        <translation>#1</translation>
+        <translation type="vanished">#1</translation>
     </message>
     <message>
         <source>NUM2</source>
-        <translation>#2</translation>
+        <translation type="vanished">#2</translation>
     </message>
     <message>
         <source>TYPE</source>
-        <translation>Type</translation>
+        <translation type="vanished">Type</translation>
     </message>
     <message>
         <source>QTY</source>
-        <translation>Qty.</translation>
+        <translation type="vanished">Qty.</translation>
     </message>
 </context>
 <context>
     <name>BustersItemTab</name>
     <message>
         <source>UNKNOWN</source>
-        <translation>(???)</translation>
+        <translation type="vanished">(???)</translation>
     </message>
     <message>
         <source>CONFIRM</source>
-        <translation>Confirmation</translation>
+        <translation type="vanished">Confirmation</translation>
     </message>
     <message>
         <source>AUTOMATIC_NUMBERING_WARNING</source>
-        <translation>This action will automatically assign the #1 and #2 values of each entry.
+        <translation type="vanished">This action will automatically assign the #1 and #2 values of each entry.
 
 Because this is an experimental feature, your save data may get corrupted. Continue?</translation>
     </message>
@@ -117,27 +140,27 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     <name>BustersItemTabForm</name>
     <message>
         <source>GENERAL</source>
-        <translation>General</translation>
+        <translation type="vanished">General</translation>
     </message>
     <message>
         <source>NUM1</source>
-        <translation>#1</translation>
+        <translation type="vanished">#1</translation>
     </message>
     <message>
         <source>NUM2</source>
-        <translation>#2</translation>
+        <translation type="vanished">#2</translation>
     </message>
     <message>
         <source>TYPE</source>
-        <translation>Type</translation>
+        <translation type="vanished">Type</translation>
     </message>
     <message>
         <source>INDEX</source>
-        <translation>Index</translation>
+        <translation type="vanished">Index</translation>
     </message>
     <message>
         <source>ENCHANTMENT</source>
-        <translation>Enchantment value</translation>
+        <translation type="vanished">Enchantment value</translation>
     </message>
 </context>
 <context>
@@ -180,181 +203,204 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     <name>EquipmentTab</name>
     <message>
         <source>GENERAL</source>
-        <translation>基本</translation>
+        <translation type="vanished">基本</translation>
     </message>
     <message>
         <source>NUM1</source>
-        <translation>番号1</translation>
+        <translation type="vanished">番号1</translation>
     </message>
     <message>
         <source>NUM2</source>
-        <translation>番号2</translation>
+        <translation type="vanished">番号2</translation>
     </message>
     <message>
         <source> TYPE</source>
-        <translation>種類</translation>
+        <translation type="vanished">種類</translation>
     </message>
     <message>
         <source>QTY1</source>
-        <translation>個数1</translation>
+        <translation type="vanished">個数1</translation>
     </message>
     <message>
         <source>QTY2</source>
-        <translation>個数2</translation>
+        <translation type="vanished">個数2</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation>リセット</translation>
+        <translation type="vanished">リセット</translation>
     </message>
     <message>
         <source>APPLY</source>
-        <translation>適用</translation>
+        <translation type="vanished">適用</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>(???)</translation>
+        <translation type="vanished">(???)</translation>
     </message>
 </context>
 <context>
     <name>EquipmentTabForm</name>
     <message>
         <source>GENERAL</source>
-        <translation>General</translation>
+        <translation type="vanished">General</translation>
     </message>
     <message>
         <source>NUM1</source>
-        <translation>#1</translation>
+        <translation type="vanished">#1</translation>
     </message>
     <message>
         <source>NUM2</source>
-        <translation>#2</translation>
+        <translation type="vanished">#2</translation>
     </message>
     <message>
         <source> TYPE</source>
-        <translation>Type</translation>
+        <translation type="vanished">Type</translation>
     </message>
     <message>
         <source>QTY1</source>
-        <translation>Qty. 1</translation>
+        <translation type="vanished">Qty. 1</translation>
     </message>
     <message>
         <source>QTY2</source>
-        <translation>Qty. 2</translation>
+        <translation type="vanished">Qty. 2</translation>
     </message>
 </context>
 <context>
     <name>GashaLot</name>
     <message>
         <source>LOT1</source>
-        <translation>Bad prize</translation>
+        <translation type="vanished">Bad prize</translation>
     </message>
     <message>
         <source>LOT2</source>
-        <translation>Small prize</translation>
+        <translation type="vanished">Small prize</translation>
     </message>
     <message>
         <source>LOT3</source>
-        <translation>Medium prize</translation>
+        <translation type="vanished">Medium prize</translation>
     </message>
     <message>
         <source>LOT4</source>
-        <translation>Jackpot</translation>
+        <translation type="vanished">Jackpot</translation>
     </message>
 </context>
 <context>
     <name>GashaTab</name>
     <message>
         <source>NEXT_JAPAN</source>
-        <translation>Next prizes (Japan)</translation>
+        <translation type="vanished">Next prizes (Japan)</translation>
     </message>
     <message>
         <source>NEXT_USA</source>
-        <translation>Next prizes (USA)</translation>
+        <translation type="vanished">Next prizes (USA)</translation>
     </message>
     <message>
         <source>ADVANCE</source>
-        <translation>Advance</translation>
+        <translation type="vanished">Advance</translation>
     </message>
     <message>
         <source>TERROR_TIME</source>
-        <translation>Oni Crank-a-kai</translation>
+        <translation type="vanished">Oni Crank-a-kai</translation>
     </message>
     <message>
         <source>GAMECOIN</source>
-        <translation>Play Coins</translation>
+        <translation type="vanished">Play Coins</translation>
     </message>
     <message>
         <source>GASHA_TABLE_NOTICE</source>
-        <translation>Some items may not be on today&apos;s list. Changing the probability may cause a different prize to come out.</translation>
+        <translation type="vanished">Some items may not be on today&apos;s list. Changing the probability may cause a different prize to come out.</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation>Reset</translation>
+        <translation type="vanished">Reset</translation>
     </message>
     <message>
         <source>APPLY</source>
-        <translation>Apply</translation>
+        <translation type="vanished">Apply</translation>
     </message>
 </context>
 <context>
     <name>HackSlashTab</name>
     <message>
         <source>UNKNOWN</source>
-        <translation>(???)</translation>
+        <translation type="vanished">(???)</translation>
     </message>
 </context>
 <context>
     <name>HackSlashTabForm</name>
     <message>
         <source>GENERAL</source>
-        <translation>General</translation>
+        <translation type="vanished">General</translation>
     </message>
     <message>
         <source>NUM1</source>
-        <translation>#1</translation>
+        <translation type="vanished">#1</translation>
     </message>
     <message>
         <source>NUM2</source>
-        <translation>#2</translation>
+        <translation type="vanished">#2</translation>
     </message>
     <message>
         <source>TYPE</source>
-        <translation>Type</translation>
+        <translation type="vanished">Type</translation>
     </message>
     <message>
         <source>QTY</source>
-        <translation>Qty.</translation>
+        <translation type="vanished">Qty.</translation>
+    </message>
+</context>
+<context>
+    <name>HelmetTabForm</name>
+    <message>
+        <location filename="../helmettabform.ui" line="20"/>
+        <source>GENERAL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../helmettabform.ui" line="28"/>
+        <source>NUM1</source>
+        <translation type="unfinished">#1</translation>
+    </message>
+    <message>
+        <location filename="../helmettabform.ui" line="42"/>
+        <source>NUM2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../helmettabform.ui" line="56"/>
+        <source>TYPE</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ImportantTab</name>
     <message>
         <source>GENERAL</source>
-        <translation>基本</translation>
+        <translation type="vanished">基本</translation>
     </message>
     <message>
         <source>NUM1</source>
-        <translation>番号1</translation>
+        <translation type="vanished">番号1</translation>
     </message>
     <message>
         <source>NUM2</source>
-        <translation>番号2</translation>
+        <translation type="vanished">番号2</translation>
     </message>
     <message>
         <source>TYPE</source>
-        <translation>種類</translation>
+        <translation type="vanished">種類</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation>リセット</translation>
+        <translation type="vanished">リセット</translation>
     </message>
     <message>
         <source>APPLY</source>
-        <translation>適用</translation>
+        <translation type="vanished">適用</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>(???)</translation>
+        <translation type="vanished">(???)</translation>
     </message>
 </context>
 <context>
@@ -384,43 +430,43 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     <name>ItemTab</name>
     <message>
         <source>GENERAL</source>
-        <translation>基本</translation>
+        <translation type="vanished">基本</translation>
     </message>
     <message>
         <source>NUM1</source>
-        <translation>番号1</translation>
+        <translation type="vanished">番号1</translation>
     </message>
     <message>
         <source>NUM2</source>
-        <translation>番号2</translation>
+        <translation type="vanished">番号2</translation>
     </message>
     <message>
         <source>TYPE</source>
-        <translation>種類</translation>
+        <translation type="vanished">種類</translation>
     </message>
     <message>
         <source>QTY</source>
-        <translation>個数1</translation>
+        <translation type="vanished">個数1</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation>リセット</translation>
+        <translation type="vanished">リセット</translation>
     </message>
     <message>
         <source>APPLY</source>
-        <translation>適用</translation>
+        <translation type="vanished">適用</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>(???)</translation>
+        <translation type="vanished">(???)</translation>
     </message>
     <message>
         <source>CONFIRM</source>
-        <translation>Confirmation</translation>
+        <translation type="vanished">Confirmation</translation>
     </message>
     <message>
         <source>ALL_CREATURES_WARNING</source>
-        <translation>This action will add all bugs and fish to your inventory.
+        <translation type="vanished">This action will add all bugs and fish to your inventory.
 The #1 and #2 values will not be set for the newly added creatures.
 
 Because this is an experimental feature, your save data may get corrupted. Continue?</translation>
@@ -455,7 +501,7 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     </message>
     <message>
         <source>ALL_CREATURES</source>
-        <translation>Add all bugs/fish</translation>
+        <translation type="vanished">Add all bugs/fish</translation>
     </message>
 </context>
 <context>
@@ -475,7 +521,7 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     <name>ListTab</name>
     <message>
         <source>FILTER</source>
-        <translation>フィルタ</translation>
+        <translation type="vanished">フィルタ</translation>
     </message>
     <message>
         <location filename="../listtab.ui" line="39"/>
@@ -605,163 +651,173 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     </message>
     <message>
         <source>YOKAI</source>
-        <translation>Yo-kai</translation>
+        <translation type="vanished">Yo-kai</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="40"/>
+        <location filename="../mainwindow.cpp" line="42"/>
         <source>ITEM</source>
         <translation>Items</translation>
     </message>
     <message>
         <source>EQUIPMENT</source>
-        <translation>Equipment</translation>
+        <translation type="vanished">Equipment</translation>
     </message>
     <message>
         <source>SOUL</source>
-        <translation>Soul Orbs</translation>
+        <translation type="vanished">Soul Orbs</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="44"/>
+        <location filename="../mainwindow.cpp" line="48"/>
         <source>IMPORTANT</source>
         <translation>Key Items</translation>
     </message>
     <message>
         <source>ITEM_FEMALE</source>
-        <translation>どうぐ(女)</translation>
+        <translation type="vanished">どうぐ(女)</translation>
     </message>
     <message>
         <source>EQUIPMENT_FEMALE</source>
-        <translation>そうび(女)</translation>
+        <translation type="vanished">そうび(女)</translation>
     </message>
     <message>
         <source>IMPORTANT_FEMALE</source>
-        <translation>だいじなもの(女)</translation>
+        <translation type="vanished">だいじなもの(女)</translation>
     </message>
     <message>
         <source>MEDALLIUM</source>
-        <translation>Yo-kai Medallium</translation>
+        <translation type="vanished">Yo-kai Medallium</translation>
     </message>
     <message>
         <source>INFO1</source>
-        <translation>Info 1</translation>
+        <translation type="vanished">Info 1</translation>
     </message>
     <message>
         <source>INFO2</source>
-        <translation>Info 2</translation>
+        <translation type="vanished">Info 2</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="41"/>
+        <location filename="../mainwindow.cpp" line="43"/>
         <source>WEAPON</source>
         <translation>Jara</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="42"/>
-        <source>ARMOR</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.cpp" line="43"/>
-        <source>MATERIAL</source>
+        <location filename="../mainwindow.cpp" line="44"/>
+        <source>HELMET</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="45"/>
+        <source>ARMOR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="46"/>
+        <source>ACCESSORY</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="47"/>
+        <source>MATERIAL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="49"/>
         <source>INFO</source>
         <translation>Info</translation>
     </message>
     <message>
         <source>MALE_TABS</source>
-        <translation>Male character</translation>
+        <translation type="vanished">Male character</translation>
     </message>
     <message>
         <source>FEMALE_TABS</source>
-        <translation>Female character</translation>
+        <translation type="vanished">Female character</translation>
     </message>
     <message>
         <source>COMMON_TABS</source>
-        <translation>Main</translation>
+        <translation type="vanished">Main</translation>
     </message>
     <message>
         <source>BUSTERS_EQUIPMENT</source>
-        <translation>Equipment</translation>
+        <translation type="vanished">Equipment</translation>
     </message>
     <message>
         <source>BUSTERS_ITEMBOX</source>
-        <translation>Item Box</translation>
+        <translation type="vanished">Item Box</translation>
     </message>
     <message>
         <source>BUSTERS_ITEMPOUCH</source>
-        <translation>Pouch</translation>
+        <translation type="vanished">Pouch</translation>
     </message>
     <message>
         <source>BUSTERS_HIDDENTREASURE</source>
-        <translation>Hidden Treasure</translation>
+        <translation type="vanished">Hidden Treasure</translation>
     </message>
     <message>
         <source>CRANK_A_KAI</source>
-        <translation>Crank-a-kai</translation>
+        <translation type="vanished">Crank-a-kai</translation>
     </message>
     <message>
         <source>HACKSLASH_BATTLE</source>
-        <translation>Zombie Night</translation>
+        <translation type="vanished">Zombie Night</translation>
     </message>
     <message>
         <source>BUSTERS_WEAPON</source>
-        <translation>Weapons</translation>
+        <translation type="vanished">Weapons</translation>
     </message>
     <message>
         <source>BUSTERS_TABS</source>
-        <translation>Busters T</translation>
+        <translation type="vanished">Busters T</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="90"/>
-        <location filename="../mainwindow.cpp" line="106"/>
-        <location filename="../mainwindow.cpp" line="126"/>
+        <location filename="../mainwindow.cpp" line="96"/>
+        <location filename="../mainwindow.cpp" line="112"/>
+        <location filename="../mainwindow.cpp" line="132"/>
         <source>ERROR</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="90"/>
-        <location filename="../mainwindow.cpp" line="106"/>
+        <location filename="../mainwindow.cpp" line="96"/>
+        <location filename="../mainwindow.cpp" line="112"/>
         <source>ERROR (%1)</source>
         <translation>Error (%1)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="126"/>
+        <location filename="../mainwindow.cpp" line="132"/>
         <source>ERROR (%1-%2)</source>
         <translation>Error (%1-%2)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="146"/>
-        <location filename="../mainwindow.cpp" line="165"/>
+        <location filename="../mainwindow.cpp" line="152"/>
+        <location filename="../mainwindow.cpp" line="171"/>
         <source>SNACK_WORLD_TREJARERS_SAVEDATA (*.sw)</source>
         <translation>Snack World Trejarers save data (*.sw)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="148"/>
-        <location filename="../mainwindow.cpp" line="167"/>
+        <location filename="../mainwindow.cpp" line="154"/>
+        <location filename="../mainwindow.cpp" line="173"/>
         <source>SNACK_WORLD_TREJARERS_DECRYPTED_SAVEDATA (*.swd *.sw)</source>
         <translation>Decrypted Snack World Trejarers save data (*.sw)</translation>
     </message>
     <message>
         <source>YO-KAI_WATCH_SAVEDATA (*.yw)</source>
-        <translation>Yo-kai Watch save data (*.yw)</translation>
+        <translation type="vanished">Yo-kai Watch save data (*.yw)</translation>
     </message>
     <message>
         <source>YO-KAI_WATCH_DECRYPTED_SAVEDATA (*.ywd *.yw)</source>
-        <translation>Decrypted Yo-kai Watch data (*.ywd, *.yw)</translation>
+        <translation type="vanished">Decrypted Yo-kai Watch data (*.ywd, *.yw)</translation>
     </message>
     <message>
         <source>YO-KAI_WATCH_DECRYPTED_SAVEDATA (*.ywd)</source>
-        <translation>妖怪ウォッチ 復号済みセーブデータ (*.ywd)</translation>
+        <translation type="vanished">妖怪ウォッチ 復号済みセーブデータ (*.ywd)</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="150"/>
+        <location filename="../mainwindow.cpp" line="156"/>
         <source>SELECT_FILE_TO_OPEN</source>
         <translation>Select a file to open</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="169"/>
+        <location filename="../mainwindow.cpp" line="175"/>
         <source>INPUT_FILENAME</source>
         <translation>Enter a filename to save as</translation>
     </message>
@@ -807,31 +863,31 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     <name>MedaliumTab</name>
     <message>
         <source>SEEN</source>
-        <translation>Seen</translation>
+        <translation type="vanished">Seen</translation>
     </message>
     <message>
         <source>CHECK_ALL</source>
-        <translation>Check all</translation>
+        <translation type="vanished">Check all</translation>
     </message>
     <message>
         <source>UNCHECK_ALL</source>
-        <translation>Uncheck all</translation>
+        <translation type="vanished">Uncheck all</translation>
     </message>
     <message>
         <source>BEFRIENDED</source>
-        <translation>Befriended</translation>
+        <translation type="vanished">Befriended</translation>
     </message>
     <message>
         <source>YO-KAI_CAM</source>
-        <translation>妖怪レンズ</translation>
+        <translation type="vanished">妖怪レンズ</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation>Reset</translation>
+        <translation type="vanished">Reset</translation>
     </message>
     <message>
         <source>APPLY</source>
-        <translation>Apply</translation>
+        <translation type="vanished">Apply</translation>
     </message>
 </context>
 <context>
@@ -848,7 +904,7 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     </message>
     <message>
         <source>ENEN_AZEMICHI_PLAYED</source>
-        <translation>Played the Endless Footpath</translation>
+        <translation type="vanished">Played the Endless Footpath</translation>
     </message>
     <message>
         <location filename="../section1tab.ui" line="87"/>
@@ -908,47 +964,47 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     <name>Section242Tab</name>
     <message>
         <source>POS_OF_CLOCKHAND</source>
-        <translation>時計の針の位置</translation>
+        <translation type="vanished">時計の針の位置</translation>
     </message>
     <message>
         <source>POS_OF_CLOCKHAND_JAPON</source>
-        <translation>Clock hand position (Japan)</translation>
+        <translation type="vanished">Clock hand position (Japan)</translation>
     </message>
     <message>
         <source>WANTED_POINT</source>
-        <translation>Wanted Points</translation>
+        <translation type="vanished">Wanted Points</translation>
     </message>
     <message>
         <source>MALE_MAIN_CHARACTER</source>
-        <translation>Male character</translation>
+        <translation type="vanished">Male character</translation>
     </message>
     <message>
         <source>MAP</source>
-        <translation>Map</translation>
+        <translation type="vanished">Map</translation>
     </message>
     <message>
         <source>POS_X</source>
-        <translation>X coord</translation>
+        <translation type="vanished">X coord</translation>
     </message>
     <message>
         <source>POS_Y</source>
-        <translation>Y coord</translation>
+        <translation type="vanished">Y coord</translation>
     </message>
     <message>
         <source>POS_Z</source>
-        <translation>Z coord</translation>
+        <translation type="vanished">Z coord</translation>
     </message>
     <message>
         <source>FEMALE_MAIN_CHARACTER</source>
-        <translation>Female character</translation>
+        <translation type="vanished">Female character</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation>Reset</translation>
+        <translation type="vanished">Reset</translation>
     </message>
     <message>
         <source>APPLY</source>
-        <translation>Apply</translation>
+        <translation type="vanished">Apply</translation>
     </message>
 </context>
 <context>
@@ -973,101 +1029,101 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     <name>Section9Tab</name>
     <message>
         <source>MONEY</source>
-        <translation>Money</translation>
+        <translation type="vanished">Money</translation>
     </message>
     <message>
         <source>MONEY_MALE_CHARACTER</source>
-        <translation>お金 (男主人公)</translation>
+        <translation type="vanished">お金 (男主人公)</translation>
     </message>
     <message>
         <source>MONEY_FEMALE_CHARACTER</source>
-        <translation>お金 (女主人公)</translation>
+        <translation type="vanished">お金 (女主人公)</translation>
     </message>
     <message>
         <source>JUNGLE_POINT_MALE_CHARACTER</source>
-        <translation>ジャングルポイント (男主人公)</translation>
+        <translation type="vanished">ジャングルポイント (男主人公)</translation>
     </message>
     <message>
         <source>JUNGLE_POINT</source>
-        <translation>Jungle Points</translation>
+        <translation type="vanished">Jungle Points</translation>
     </message>
     <message>
         <source>GUTS_POINT</source>
-        <translation>Guts Points</translation>
+        <translation type="vanished">Guts Points</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation>Reset</translation>
+        <translation type="vanished">Reset</translation>
     </message>
     <message>
         <source>APPLY</source>
-        <translation>Apply</translation>
+        <translation type="vanished">Apply</translation>
     </message>
 </context>
 <context>
     <name>SoulTab</name>
     <message>
         <source>GENERAL</source>
-        <translation>基本</translation>
+        <translation type="vanished">基本</translation>
     </message>
     <message>
         <source>NUM1</source>
-        <translation>番号1</translation>
+        <translation type="vanished">番号1</translation>
     </message>
     <message>
         <source>NUM2</source>
-        <translation>番号2</translation>
+        <translation type="vanished">番号2</translation>
     </message>
     <message>
         <source>TYPE</source>
-        <translation>種類</translation>
+        <translation type="vanished">種類</translation>
     </message>
     <message>
         <source>EXP_POINT</source>
-        <translation>経験値</translation>
+        <translation type="vanished">経験値</translation>
     </message>
     <message>
         <source>LEVEL</source>
-        <translation>レベル</translation>
+        <translation type="vanished">レベル</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation>リセット</translation>
+        <translation type="vanished">リセット</translation>
     </message>
     <message>
         <source>APPLY</source>
-        <translation>適用</translation>
+        <translation type="vanished">適用</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>(???)</translation>
+        <translation type="vanished">(???)</translation>
     </message>
 </context>
 <context>
     <name>SoulTabForm</name>
     <message>
         <source>GENERAL</source>
-        <translation>General</translation>
+        <translation type="vanished">General</translation>
     </message>
     <message>
         <source>NUM1</source>
-        <translation>#1</translation>
+        <translation type="vanished">#1</translation>
     </message>
     <message>
         <source>NUM2</source>
-        <translation>#2</translation>
+        <translation type="vanished">#2</translation>
     </message>
     <message>
         <source>TYPE</source>
-        <translation>Type</translation>
+        <translation type="vanished">Type</translation>
     </message>
     <message>
         <source>EXP_POINT</source>
-        <translation>Exp.</translation>
+        <translation type="vanished">Exp.</translation>
     </message>
     <message>
         <source>LEVEL</source>
-        <translation>Level</translation>
+        <translation type="vanished">Level</translation>
     </message>
 </context>
 <context>
@@ -1118,13 +1174,21 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     </message>
     <message>
         <location filename="../weapontabform.ui" line="103"/>
-        <source>QTY1</source>
-        <translation>Qty. 1</translation>
+        <source>UNK1</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../weapontabform.ui" line="117"/>
+        <source>UNK2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>QTY1</source>
+        <translation type="vanished">Qty. 1</translation>
+    </message>
+    <message>
         <source>QTY2</source>
-        <translation>Qty. 2</translation>
+        <translation type="vanished">Qty. 2</translation>
     </message>
     <message>
         <location filename="../weapontabform.ui" line="127"/>
@@ -1146,143 +1210,143 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     <name>YoukaiTab</name>
     <message>
         <source>GENERAL</source>
-        <translation>基本</translation>
+        <translation type="vanished">基本</translation>
     </message>
     <message>
         <source>TYPE_OF_YOKAI</source>
-        <translation>妖怪の種類</translation>
+        <translation type="vanished">妖怪の種類</translation>
     </message>
     <message>
         <source>NICKNAME</source>
-        <translation>ニックネーム</translation>
+        <translation type="vanished">ニックネーム</translation>
     </message>
     <message>
         <source>[STRING/RUBY]</source>
-        <translation>[ルビを振る文字/ルビ]</translation>
+        <translation type="vanished">[ルビを振る文字/ルビ]</translation>
     </message>
     <message>
         <source>LEVEL</source>
-        <translation>レベル</translation>
+        <translation type="vanished">レベル</translation>
     </message>
     <message>
         <source>EXP_POINT_AT_THIS_LEVEL</source>
-        <translation>このレベルでの経験値</translation>
+        <translation type="vanished">このレベルでの経験値</translation>
     </message>
     <message>
         <source>NUM1</source>
-        <translation>番号1</translation>
+        <translation type="vanished">番号1</translation>
     </message>
     <message>
         <source>NUM2</source>
-        <translation>番号2</translation>
+        <translation type="vanished">番号2</translation>
     </message>
     <message>
         <source>PERSONAL_LOAF</source>
-        <translation>さぼり度</translation>
+        <translation type="vanished">さぼり度</translation>
     </message>
     <message>
         <source>PERSONAL_AI</source>
-        <translation>せいかく</translation>
+        <translation type="vanished">せいかく</translation>
     </message>
     <message>
         <source>ATK_LEVEL</source>
-        <translation>こうげきレベル</translation>
+        <translation type="vanished">こうげきレベル</translation>
     </message>
     <message>
         <source>INSPR_LEVEL</source>
-        <translation>ようじゅつレベル</translation>
+        <translation type="vanished">ようじゅつレベル</translation>
     </message>
     <message>
         <source>SOULTIMATE_LEVEL</source>
-        <translation>ひっさつレベル</translation>
+        <translation type="vanished">ひっさつレベル</translation>
     </message>
     <message>
         <source>TRAINING_COUNT</source>
-        <translation>トレーニング回数</translation>
+        <translation type="vanished">トレーニング回数</translation>
     </message>
     <message>
         <source>IV</source>
-        <translation>個体値</translation>
+        <translation type="vanished">個体値</translation>
     </message>
     <message>
         <source>HP</source>
-        <translation>HP</translation>
+        <translation type="vanished">HP</translation>
     </message>
     <message>
         <source>ATK</source>
-        <translation>ちから</translation>
+        <translation type="vanished">ちから</translation>
     </message>
     <message>
         <source>SPR</source>
-        <translation>ようりょく</translation>
+        <translation type="vanished">ようりょく</translation>
     </message>
     <message>
         <source>DEF</source>
-        <translation>まもり</translation>
+        <translation type="vanished">まもり</translation>
     </message>
     <message>
         <source>SPD</source>
-        <translation>すばやさ</translation>
+        <translation type="vanished">すばやさ</translation>
     </message>
     <message>
         <source>SPORTS_CLUB</source>
-        <translation>スポーツクラブ</translation>
+        <translation type="vanished">スポーツクラブ</translation>
     </message>
     <message>
         <source>FLAGS</source>
-        <translation>フラグ</translation>
+        <translation type="vanished">フラグ</translation>
     </message>
     <message>
         <source>IS_SPECIAL</source>
-        <translation>特別</translation>
+        <translation type="vanished">特別</translation>
     </message>
     <message>
         <source>IS_NEW</source>
-        <translation>NEW!</translation>
+        <translation type="vanished">NEW!</translation>
     </message>
     <message>
         <source>IS_CHEATED</source>
-        <translation>改造</translation>
+        <translation type="vanished">改造</translation>
     </message>
     <message>
         <source>AP</source>
-        <translation>性格補正</translation>
+        <translation type="vanished">性格補正</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>(???)</translation>
+        <translation type="vanished">(???)</translation>
     </message>
     <message>
         <source>AUTO_NUMBERING</source>
-        <translation>自動付番</translation>
+        <translation type="vanished">自動付番</translation>
     </message>
     <message>
         <source>UPDATE_INDEX</source>
-        <translation>妖怪一覧更新</translation>
+        <translation type="vanished">妖怪一覧更新</translation>
     </message>
     <message>
         <source>UPDATE_ID</source>
-        <translation>ID更新</translation>
+        <translation type="vanished">ID更新</translation>
     </message>
     <message>
         <source>FIX_IV</source>
-        <translation>個体値修正</translation>
+        <translation type="vanished">個体値修正</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation>リセット</translation>
+        <translation type="vanished">リセット</translation>
     </message>
     <message>
         <source>APPLY</source>
-        <translation>適用</translation>
+        <translation type="vanished">適用</translation>
     </message>
     <message>
         <source>CONFIRM</source>
-        <translation>Confirmation</translation>
+        <translation type="vanished">Confirmation</translation>
     </message>
     <message>
         <source>UPDATE_INDEX_WARNING</source>
-        <translation>This action will update the Yo-kai list in section 10.
+        <translation type="vanished">This action will update the Yo-kai list in section 10.
 Please use this if Yo-kai you have added do not appear in the game.
 Please do not use this until both characters&apos; medalliums have been merged in Chapter 6.
 
@@ -1290,25 +1354,25 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     </message>
     <message>
         <source>ALL_WINPOSES_WARNING</source>
-        <translation>This action will unlock all Yo-kai victory poses.
+        <translation type="vanished">This action will unlock all Yo-kai victory poses.
 
 Because this is an experimental feature, your save data may get corrupted. Continue?</translation>
     </message>
     <message>
         <source>AUTOMATIC_NUMBERING_WARNING</source>
-        <translation>この操作は妖怪の番号1と番号2を自動的に設定します．
+        <translation type="vanished">この操作は妖怪の番号1と番号2を自動的に設定します．
 
 この機能は実験的なもので，セーブデータが破壊される可能性があります．</translation>
     </message>
     <message>
         <source>UPDATE_ID_WARNING</source>
-        <translation>This action will set the ID of all your Yo-kai to your own.
+        <translation type="vanished">This action will set the ID of all your Yo-kai to your own.
 
 Because this is an experimental feature, your save data may get corrupted. Continue?</translation>
     </message>
     <message>
         <source>FIX_IV_WARNING</source>
-        <translation>This action will modify the IVs of Yo-kai whose IVs are illegal.
+        <translation type="vanished">This action will modify the IVs of Yo-kai whose IVs are illegal.
 The new IVs will be randomly generated.
 
 Because this is an experimental feature, your save data may get corrupted. Continue?</translation>
@@ -1318,123 +1382,123 @@ Because this is an experimental feature, your save data may get corrupted. Conti
     <name>YoukaiTabForm</name>
     <message>
         <source>GENERAL</source>
-        <translation>General</translation>
+        <translation type="vanished">General</translation>
     </message>
     <message>
         <source>NUM1</source>
-        <translation>#1</translation>
+        <translation type="vanished">#1</translation>
     </message>
     <message>
         <source>NUM2</source>
-        <translation>#2</translation>
+        <translation type="vanished">#2</translation>
     </message>
     <message>
         <source>TYPE_OF_YOKAI</source>
-        <translation>Yo-kai</translation>
+        <translation type="vanished">Yo-kai</translation>
     </message>
     <message>
         <source>NICKNAME</source>
-        <translation>Nickname</translation>
+        <translation type="vanished">Nickname</translation>
     </message>
     <message>
         <source>LEVEL</source>
-        <translation>Level</translation>
+        <translation type="vanished">Level</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation>ID</translation>
+        <translation type="vanished">ID</translation>
     </message>
     <message>
         <source>ATK_LEVEL</source>
-        <translation>Attack level</translation>
+        <translation type="vanished">Attack level</translation>
     </message>
     <message>
         <source>INSPR_LEVEL</source>
-        <translation>Technique level</translation>
+        <translation type="vanished">Technique level</translation>
     </message>
     <message>
         <source>SOULTIMATE_LEVEL</source>
-        <translation>Soultimate level</translation>
+        <translation type="vanished">Soultimate level</translation>
     </message>
     <message>
         <source>PERSONAL_LOAF</source>
-        <translation>Loaf level</translation>
+        <translation type="vanished">Loaf level</translation>
     </message>
     <message>
         <source>PERSONAL_AI</source>
-        <translation>Attitude</translation>
+        <translation type="vanished">Attitude</translation>
     </message>
     <message>
         <source>TRAINING_COUNT</source>
-        <translation>Training count</translation>
+        <translation type="vanished">Training count</translation>
     </message>
     <message>
         <source>IV</source>
-        <translation>IVs</translation>
+        <translation type="vanished">IVs</translation>
     </message>
     <message>
         <source>HP</source>
-        <translation>HP</translation>
+        <translation type="vanished">HP</translation>
     </message>
     <message>
         <source>STR</source>
-        <translation>STR</translation>
+        <translation type="vanished">STR</translation>
     </message>
     <message>
         <source>ATK</source>
-        <translation>STR</translation>
+        <translation type="vanished">STR</translation>
     </message>
     <message>
         <source>SPR</source>
-        <translation>SPR</translation>
+        <translation type="vanished">SPR</translation>
     </message>
     <message>
         <source>DEF</source>
-        <translation>DEF</translation>
+        <translation type="vanished">DEF</translation>
     </message>
     <message>
         <source>SPD</source>
-        <translation>SPD</translation>
+        <translation type="vanished">SPD</translation>
     </message>
     <message>
         <source>SPORTS_CLUB</source>
-        <translation>Sports Club</translation>
+        <translation type="vanished">Sports Club</translation>
     </message>
     <message>
         <source>FLAGS</source>
-        <translation>Flags</translation>
+        <translation type="vanished">Flags</translation>
     </message>
     <message>
         <source>IS_SPECIAL</source>
-        <translation>Special</translation>
+        <translation type="vanished">Special</translation>
     </message>
     <message>
         <source>IS_NEW</source>
-        <translation>NEW!</translation>
+        <translation type="vanished">NEW!</translation>
     </message>
     <message>
         <source>IS_CHEATED</source>
-        <translation>Modified</translation>
+        <translation type="vanished">Modified</translation>
     </message>
     <message>
         <source>ALL_WINPOSES</source>
-        <translation>Unlock victory poses</translation>
+        <translation type="vanished">Unlock victory poses</translation>
     </message>
     <message>
         <source>AUTO_NUMBERING</source>
-        <translation>自動付番</translation>
+        <translation type="vanished">自動付番</translation>
     </message>
     <message>
         <source>UPDATE_INDEX</source>
-        <translation>Update Yo-kai index </translation>
+        <translation type="vanished">Update Yo-kai index </translation>
     </message>
     <message>
         <source>UPDATE_ID</source>
-        <translation>Update ID</translation>
+        <translation type="vanished">Update ID</translation>
     </message>
     <message>
         <source>FIX_IV</source>
-        <translation>Fix IVs</translation>
+        <translation type="vanished">Fix IVs</translation>
     </message>
 </context>
 </TS>
