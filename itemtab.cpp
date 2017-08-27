@@ -34,7 +34,7 @@ ItemTab::ItemTab(SaveManager* mgr, QWidget* parent, int sectionId)
     this->editors.append(new IntegerEditor(this, form->num1Label, form->num1SB, 0x00, 16, false));
     this->editors.append(new IntegerEditor(this, form->num2Label, form->num2SB, 0x02, 16, false));
     this->editors.append(itemE);
-    this->editors.append(new IntegerEditor(this, form->countLabel, form->countSB, 0x8, 8, false));
+    this->editors.append(new IntegerEditor(this, form->countLabel, form->countSB, 0x8, 16, false));
 }
 
 ItemTab::~ItemTab()
