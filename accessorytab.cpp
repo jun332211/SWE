@@ -13,7 +13,7 @@ AccessoryTab::AccessoryTab(SaveManager* mgr, QWidget* parent, int sectionId)
     form->setupUi(w);
     ui->form->addWidget(w);
 
-    this->setNum1Offset(0x2000);
+    this->setNum1Offset(0x5000);
     this->setItemsCount(GameConfig::AccessoryCountMax);
     this->setItemSize(0x18);
 

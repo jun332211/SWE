@@ -63,7 +63,7 @@ void ListTab::setButtonsEnabled(bool s)
 {
     ui->applyButton->setEnabled(s);
     ui->resetButton->setEnabled(s);
-    //    ui->autonumberingB->setEnabled(s);
+    ui->autonumberingB->setEnabled(s);
     ui->clearB->setEnabled(s);
 }
 
@@ -142,7 +142,7 @@ void ListTab::automaticNumbering()
         for (int i = 0; i < this->getItemsCount(); ++i) {
             if (this->read<quint32>(0x04 + itemSize * i)) { // if identifier is non-zero
                 this->write<quint16>(k + num1Offset, 0x00 + itemSize * i); // num1
-                this->write<quint16>(k + 1, 0x02 + itemSize * i); // num2
+                this->write<quint16>(2 * (k + 1), 0x02 + itemSize * i); // num2
                 k++;
             }
         }

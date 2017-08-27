@@ -13,7 +13,7 @@ HelmetTab::HelmetTab(SaveManager* mgr, QWidget* parent, int sectionId)
     form->setupUi(w);
     ui->form->addWidget(w);
 
-    this->setNum1Offset(0x2000);
+    this->setNum1Offset(0x3000);
     this->setItemsCount(GameConfig::HelmetCountMax);
     this->setItemSize(0x18);
 
